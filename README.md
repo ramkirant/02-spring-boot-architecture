@@ -46,3 +46,7 @@ There are two ways in which filters can be configured
 8. SecurityFilterChain
 
    Contains a chain of filters for handling the security of the application
+
+9. UsernamePasswordAuthenticationFilter
+
+   This filter is responsible for implementing Spring security by using a user name and password. It extracts the user name and password from the request and authenticates based on them.  
